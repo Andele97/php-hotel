@@ -72,7 +72,7 @@
       <tr>
         <td><strong><?php echo $hotel['name']?></strong></td>
         <td><?php echo $hotel['description']?></td>
-        <td><?php echo $hotel['parking']?></td>
+        <td><?php echo $hotel['parking'] ? 'Si' : 'No'?></td>
         <td><?php echo $hotel['vote']?></td>
         <td><?php echo $hotel['distance_to_center']?></td>
       </tr>
